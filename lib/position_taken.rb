@@ -4,10 +4,10 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def position_taken?(board, index)
 
-elsif board[index] == ("") || (" ") || nil
+  if board[index] == ("") || (" ") || nil
   return false
 
-  if board[index] == ("X") || ("O")
+  elsif board[index] == ("X") || ("O")
     return true
 
   end
